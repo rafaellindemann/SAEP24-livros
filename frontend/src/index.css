@@ -1,0 +1,69 @@
+/* index.css */
+:root {
+  --cor-texto: #000000;
+  --cor-fundo: #ffffff;
+  --cor-fundo-destaque: #0056b3;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--cor-fundo);
+  color: var(--cor-texto);
+  margin: 0;
+}
+
+button {
+  background-color: var(--cor-fundo-destaque);
+  color: var(--cor-fundo);
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: var(--cor-fundo-destaque);
+  color: var(--cor-fundo);
+}
+
+.dashboard {
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  padding: 16px; */
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.coluna-dashboard{
+  flex: 1;
+  margin: 8px;
+  padding: 16px;
+  background-color: var(--cor-fundo);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: flex-start;
+  align-items: center;
+  /* color: var(--cor-fundo); */
+}
+
+.book-card{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  justify-content: flex-start;
+  align-items: center;
+
+  border: 1px solid var(--cor-fundo-destaque);
+  border-radius: 8px;
+  padding: 8px;
+  width: 100%;
+
+  box-shadow: 0 0 0 0.1em var(--cor-fundo-destaque);
+
+}
