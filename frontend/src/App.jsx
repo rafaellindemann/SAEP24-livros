@@ -1,19 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import BookCard from './components/BookCard';
 
-
 function App() {
     const [books, setBooks] = useState([]);
-    const [students, setStudents] = useState([]);
     const filterBooksByStatus = (status) => books.filter(book => book.status === status);
 
     function handleAddBook(){
       // Lógica para abrir modal de novo livro
-  };
+    }
 
-  function handleAddStudent(){
+    function handleAddStudent(){
       // Lógica para abrir modal de novo estudante
-  };
+    }
 
     // Função para buscar todos os livros
     const fetchBooks = async () => {
