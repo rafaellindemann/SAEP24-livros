@@ -7,4 +7,5 @@ Livros > status : "disponivel" | "emprestado" | "indisponivel"
 
 
 Procedimento lindo: 
-https://rafaellindemann.notion.site/Simulado-pr-tico-13dd393ff68e809eba12ed4c5e2510f2?pvs=4
+https://www.notion.so/rafaellindemann/wip-Simulado-pr-tico-2504-1e4d393ff68e80f7aee8e25983cf0073
+
